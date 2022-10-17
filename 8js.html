@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        /*   var a;
+          console.log(a); */
+        /*  var temp;
+            var a = '青苹果';
+            var b = '黑梨';
+            temp = a;
+            a = b;
+            b = temp;
+            console.log('a');
+            console.log(b); */
+        /* var arr = ['red', 'green', 'blue', 'pink', 'purple'];
+        var arrnew = [];
+        for (var i = arr.length - 1; i >= 0; i--) {
+            arrnew[arrnew.length] = arr[i];
+        }
+        console.log(arrnew); */
+        /*  var arr = [2, 0, 6, 1, 77, 0, 52, 0, 25, 7];
+            var arrnew = [];
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] != 0) {
+                    arrnew[arrnew.length] = arr[i];
+                }
+            }
+            console.log(arrnew); */
+        /*  var arr = [2, 0, 6, 1, 77, 0, 52, 0, 25, 7];
+          var arrnew = [];
+          for (var i = 0; i < arr.length; i++) {
+              if (arr[i] > 10) {
+                  arrnew[arrnew.length] = arr[i];
+              }
+          }
+          console.log(arrnew); */
+        /*  var arr = [];
+              for (var i = 0; i < 10; i++) {
+                  arr[i] = i + 1;
+              }
+              console.log(arr); */
+        /*   var arrcolor = ['red', 'green', 'blue', 'pink'];
+            arrcolor[4] = 'white';
+            arrcolor[5] = 'black';
+            console.log(arrcolor.length);
+            console.log(arrcolor); */
+        /*  console.log(arrcolor.length);
+          arrcolor.length = 6;
+          console.log(arrcolor.length);
+          console.log(arrcolor);
+          console.log(arrcolor[4]);
+          console.log(arrcolor[5]); */
+        /*  var arrcolor = ['red', 'green', 'blue', 'pink'];
+              var str = '';
+              for (var i = 0; i < arrcolor.length; i++) {
+                  str += arrcolor[i] + '|';
+              }
+              console.log(str); */
+        /* var arr = [2, 6, 1, 77, 52, 25, 7];
+        var arrmax = arr[0];
+        for (var i = 1; i < arr.length; i++) {
+            if (arr[i] > arrmax) {
+                arrmax = arr[i];
+            }
+        }
+        console.log('数组的最大值为:' + arrmax); */
+        /*  var arr = [2, 6, 1, 7, 4];
+          var sum = 0;
+          var average = 0;
+          for (var i = 0; i < arr.length; i++) {
+              sum += arr[i];
+          }
+          average = sum / arr.length;
+          console.log(sum);
+          console.log(average); */
+        /*  var arrcolor = ['red', 'green', 'blue'];
+          for (var i = 0; i < arrcolor.length; i++) {
+              console.log(arrcolor[i]);
+          }
+          console.log(arrcolor.length); */
+        /*  var arr1 = [1, 2, 3, 6, 'pink老师'];
+           console.log(arr1[3]); */
+        /* var arr = new Array();
+        arr[0] = 'shenge';
+        arr[1] = 'mengbaichuan';
+        console.log(arr.length);
+        for (var i = 0; i < arr.length; i++) {
+            console.log(arr[i]);
+        } */
+        /*  var sum = 0;
+          for (var i = 1; i <= 100; i++) {
+              if (i == 3) {
+                  break;
+              }
+              console.log('我真在吃第' + i + '个包子');
+          } */
+       // console.log(sum);
+        /*   var i = 1;
+            var sum = 0;
+            do {
+                console.log('你' + i + '岁了');
+                sum += i;
+                i++;
+            } while (i <= 100)
+            console.log(sum); */
+        /*  var love = prompt('你爱我吗?');
+           if (love == '我爱你') {
+               alert('结束');
+           } else {
+               while (true) {
+                   console.log('你爱我吗?');
+               }
+           } */
+        /*   var sum = 0;
+                var j = 1
+                while (j <= 100) {
+                     console.log('你' + num + '岁了');
+                    sum += j;
+                    j++;
+                }
+                console.log(sum); */
+        /*   var str = '';
+                    for (var i = 1; i <= 9; i++) {
+                        for (var j = 1; j <= i; j++) {
+                            str += j + '×' + i + '=' + j * i + '\t\t';
+                        }
+                        str += '\n';
+                    }
+                    console.log(str); */
+        /*  var str = '';
+             for (var i = 1; i <= 10; i++) {
+                 for (var j = i; j <= 10; j++) {
+                     str = str + '★';
+                 }
+                 str = str + '\n';
+             }
+             console.log(str); */
+        /* var rows = prompt('请输入要打印的行数');
+        var cols = prompt('请输入要打印的列数');
+        var str = '';
+        for (var i = 1; i <= rows; i++) {
+            for (var j = 1; j <= cols; j++) {
+                // console.log('★★★★★');
+                str = str + '★';
+            }
+            str = str + '\n';
+        }
+        console.log(str); */
+        /*  var str = '';
+               for (var i = 0; i < 5; i++) {
+                   //console.log('☆');
+                   str = str + '☆';
+               }★
+               console.log(str); */
+        /*  var classmatepeople = prompt('请输入班级人数');
+           for (var i = 1; i <= classmatepeople; i++) {
+               prompt('请输入' + i + '个学生的成绩');
+           } */
+        // var odds = 0;
+        // var evens = 0;
+        /*  var thirds = 0;
+         for (var i = 1; i <= 100; i++) {
+             if (i % 3 == 0) {
+                 thirds += i;
+
+             }
+         }
+         console.log('1~100能被三整除的为' + thirds + ''); */
+       // console.log('1~100的偶数和为' + odds + '');
+        /*  var sum = 0;
+          var avgs = 0;
+          for (var i = 1; i <= 100; i++) {
+              sum += i;
+          }
+          var avgs = sum / 100
+          console.log(avgs); */
+        /*   for (var i = 1; i <= 10; i++) {
+                      if (i == 1) {
+                          console.log('我出生了');
+                      }
+                      else if (i == 10) {
+                          console.log('我死了')
+                      }
+                      else {
+                          console.log('我今年' + i + '岁了');
+                      }
+                  } */
+        /* for (var i = 0; i < 100; i++) {
+            console.log('你好');
+        } */
+        /*   var fruit = prompt('请输入你想买的水果');
+            switch (fruit) {
+                case '苹果':
+                    alert('苹果5元/斤');
+                    break;
+                case '梨':
+                    alert('梨6元/斤');
+                    break;
+                default:
+                    alert('没有此水果');
+            } */
+        /*   var num = 3;
+            switch (num) {
+                case 1:
+                    console.log('这是一');
+                    break;
+                case 2:
+                    console.log('这是二');
+                    break;
+                case 3:
+                    console.log('这是三');
+                    break;
+            } */
+        /*  var time = prompt('请输入一个0~59之间的数字');
+            time = time < 10 ? '0' + time : time;
+            alert(time); */
+        /* var num = 10;
+        var nm = num > 100 ? '是的' : '不是';
+        alert(nm); */
+        /*   var grade = prompt('请输入你的成绩');
+              if (grade >= 90) {
+                  console.log('你的分数等级为A');
+              } else if (grade > 80) {
+                  console.log('你的分数等级为B');
+              } else if (grade > 70) {
+                  console.log('你的分数等级为C');
+              } else if (grade > 60) {
+                  console.log('你的分数等级为D');
+              } else {
+                  console.log('你的分数等级为E');
+              } */
+        // var year = prompt('请输入年份');
+        /* if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+            alert(year + '是闰年');
+        } else {
+            alert(year + '是平年');
+        } */
+        /*  var year = prompt('请输入你的年龄');
+            if (year >= 18) {
+                alert('你可以上网吧！');
+            } else {
+                alert("你不可以上网吧");
+            } */
+       // console.log(0 || 35);
+        /*  var age = 25;
+          age += 5;
+          console.log(age); */
+        // console.log(0 && 234);
+        // console.log('120' === 120);
+        /*   var a = 10;
+              ++a;
+              var b = ++a + 2;
+              console.log(b);   //14
+              var c = 10;
+              c++;
+              var d = c++ + 2;
+              console.log(d); //13
+              var e = 10;
+              var f = e++ + ++e;
+              console.log(f); //22 */
+        /*  var name1 = prompt('请输入你的姓名');
+            var age = prompt('请输入你的年龄');
+            var sex = prompt('请输入你的性别');
+            alert('你的姓名为' + name1 + '\n你的年龄为' + Number(age) + '\n你的性别为' + sex + ''); */
+        /*   console.log(Boolean(''));
+                    console.log(Boolean(0));
+                    console.log(Boolean(null));
+                    console.log(Boolean(undefined));
+                    console.log(Boolean(NaN));
+                    console.log(Boolean(11));
+                    console.log(Boolean('123')); */
+        /*   var a = prompt('请输入第一个值');
+                  var b = prompt('请输入第二个值');
+                  var sum = Number(a) + Number(b);
+                  alert('两数相加为:' + sum); */
+        /*  var year = prompt('请输入你的出生年份');
+          alert('你今年' + (2022 - Number(year)) + '岁了'); */
+
+        /*  var str = '123';
+         var str1 = '1234.23';
+         console.log(typeof str1);
+         console.log(typeof str);
+         var nustr = parseInt(str);
+         console.log(typeof nustr);
+         console.log(str1);
+         var st = parseFloat(str1);
+         console.log(st);
+         console.log(Number(str));
+         console.log(str - 0);
+         console.log(parseInt('4.14'));
+         console.log(parseInt('5.94'));
+         console.log(parseInt('400px')); */
+        /*   var a = 10;
+                                        console.log(a.toString());
+                                        console.log(10);
+                                        var b = 15;
+                                        console.log(String(b));
+                                        var c = 22;
+                                        console.log(c + ''); */
+        /*  var str;
+             console.log(str); */
+        /*  var flag = true;
+          var flag1 = false;
+          console.log(flag + 1);
+          console.log(flag1 + 1); */
+        /* var age = prompt('请输入你的年龄');
+        alert('你输入的年龄为：' + age + '岁'); */
+        /*   var str = 'shen shi yu';
+            console.log(str.length);
+            console.log('沙漠' + '骆驼');
+            console.log(12 + 12 + 'pink' + 12 + 12); */
+        // alert('沙漠骆驼');
+        /*  var a = prompt('请输入你的年龄');
+         alert("你的年龄为" + a);
+         console.log('你输入的年龄为' + a); */
+        /* var myname = '旗木卡卡西';
+        var address = '木叶村';
+        var age = 30;
+        var email = 'kakaxi@itcast.com';
+        var salary = 2000;
+        var arr = [myname, address, age, email, salary];
+        console.log(arr); */
+        /*  var a = prompt('请输入你的年龄');
+         alert('你输入的年龄为：' + a); */
+        /*  var temp;
+         var apple1 = '青苹果';
+         var apple2 = '红苹果';
+         temp = apple1;
+         apple1 = apple2;
+         apple2 = temp;
+         console.log(apple2); */
+        /*  var a = 15;
+         console.log(typeof a); */
+        // alert(Number.MAX_VALUE * 2);
+        // alert(Number.MIN_VALUE);
+        //console.log('pink' - 100);
+        /*   console.log(isNaN('pink老师'));
+          console.log(isNaN(15)); */
+
+    </script>
+</head>
+
+<body>
+    <!-- <input type="text" name="" id="" value="唐伯虎" onclick="alert('秋香姐')"> -->
+
+</body>
+
+</html>
