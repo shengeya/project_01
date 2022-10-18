@@ -2,3 +2,5 @@
 index.css
 #忽略test目录下所有的文件
 test/
+#忽略8js.html文件
+8js.html
